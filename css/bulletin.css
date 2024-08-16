@@ -1,0 +1,138 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal du bulletin */
+.bulletin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête du bulletin */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #007bff;
+    margin: 0;
+}
+
+.header p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Informations de l'étudiant */
+.student-info {
+    margin-bottom: 20px;
+}
+
+.student-info h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.student-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Table des notes */
+.grades {
+    margin-bottom: 20px;
+}
+
+.grades h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.grades-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.grades-table td {
+    background-color: #f9f9f9;
+}
+
+/* Section des commentaires */
+.comments {
+    margin-bottom: 20px;
+}
+
+.comments h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.comments p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #777;
+}
+
+/* Bouton de retour */
+.btn-return {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-stylized2 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-stylized2:hover {
+    background-color: #0056b3;
+}
+
+
